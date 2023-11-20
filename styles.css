@@ -39,8 +39,9 @@ link:hover {
 }
 
 /* Herro sectional*/
-hero-ttle {
+.hero-title {
     color: var(--color-primari-light);
+    font-family: serif;
 }
 
 .hero-title .accent {
@@ -48,7 +49,7 @@ hero-ttle {
 }
 
 /* Advantages section*/
-advantages-list {
+.advantages-list {
     color: var(--color-primari-light);
     background-color: var(--color-brand-light);
 }
