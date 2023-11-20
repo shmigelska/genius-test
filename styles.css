@@ -9,6 +9,7 @@
 
 body {
 color: var(--color-primari-dark);
+font-family: 'Poppins', sans-serif;
 }
 
 ul {
@@ -32,6 +33,7 @@ ul {
 /* Link*/
 .link {
     color: var(--color-primari-light);
+    text-decoration: none;
 }
 
 link:hover {
@@ -41,7 +43,6 @@ link:hover {
 /* Herro sectional*/
 .hero-title {
     color: var(--color-primari-light);
-    font-family: serif;
 }
 
 .hero-title .accent {
