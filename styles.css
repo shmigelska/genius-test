@@ -6,7 +6,6 @@
 }
 
 /* Base */
-
 body {
 color: var(--color-primari-dark);
 font-family: 'Poppins', sans-serif;
@@ -36,13 +35,15 @@ ul {
     text-decoration: none;
 }
 
-link:hover {
+.link:hover {
     color: var(--color-brand-light);
 }
 
 /* Herro sectional*/
 .hero-title {
     color: var(--color-primari-light);
+    text-align: center;
+    text-shadow: 2px 2 px 4px violet;
 }
 
 .hero-title .accent {
@@ -56,5 +57,14 @@ link:hover {
 }
 
 .section-title .accent {
-    color: var(--color-primari-dark);
+    color: var(--color-brand-dark);
 }
+
+/* Traditions sectiion */
+.tradicional-text .brand {
+    olor: var(--color-brand-light);
+}
+
+.tradicional-text .uppercase {
+    text-transform: uppercase;
+}    
