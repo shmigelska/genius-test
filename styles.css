@@ -43,7 +43,7 @@ ul {
 .hero-title {
     color: var(--color-primari-light);
     text-align: center;
-    text-shadow: 2px 2 px 4px violet;
+    /* text-transform: capitalize: */
 }
 
 .hero-title .accent {
@@ -62,9 +62,9 @@ ul {
 
 /* Traditions sectiion */
 .tradicional-text .brand {
-    olor: var(--color-brand-light);
+    color: var(--color-brand-light);
 }
 
 .tradicional-text .uppercase {
     text-transform: uppercase;
-}    
+}  
