@@ -43,7 +43,7 @@ ul {
 .hero-title {
     color: var(--color-primari-light);
     text-align: center;
-    /* text-transform: capitalize: */
+    text-shadow: none;
 }
 
 .hero-title .accent {
