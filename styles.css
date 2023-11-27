@@ -7,8 +7,10 @@
 
 /* Base */
 body {
-color: var(--color-primari-dark);
-font-family: 'Poppins', sans-serif;
+    color: var(--color-primari-dark);
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
 }
 
 ul {
@@ -18,6 +20,7 @@ ul {
 /* Button */
 .button {
     color: var(--color-primari-light);
+    font-weight: 600;
     background-color: var(--color-brand-light);
     border: 2px solid var(--color-brand-light);
     border-radius: 8px;
@@ -37,13 +40,15 @@ ul {
 
 .link:hover {
     color: var(--color-brand-light);
+    font-weight: 600;
 }
 
 /* Herro sectional*/
 .hero-title {
     color: var(--color-primari-light);
     text-align: center;
-    text-shadow: none;
+    font-size: 128px;
+    font-weight: 900;
 }
 
 .hero-title .accent {
